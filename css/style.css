@@ -1,0 +1,14 @@
+
+
+#container {
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+    'hd hd'
+    'na na'
+    'ma ma'
+    'fo fo'
+
+    ;
+
+}
