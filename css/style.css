@@ -1,14 +1,57 @@
 
 
-#container {
+#container1 {
     display: grid;
     height: 100vh;
+    grid-template-rows: 12% 8% 72% 8%;
     grid-template-areas: 
     'hd hd'
-    'na na'
+    'na1 na'
     'ma ma'
     'fo fo'
-
     ;
+    gap: 1px;
 
+}
+ 
+body{
+    background-color: lightblue;
+}
+
+header {
+    grid-area: hd;
+    background-color: aliceblue;
+}
+
+#na1 {
+    grid-area: na1;
+    background-color: aliceblue;
+ 
+}
+
+nav {
+    grid-area: na;
+    background-color: aliceblue;
+}
+
+
+main {
+    grid-area: ma;
+    background-color: aliceblue;
+
+}
+
+footer {
+    grid-area: fo;
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(96, 54, 54);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(96, 54, 54);
 }
