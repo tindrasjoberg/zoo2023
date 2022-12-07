@@ -41,6 +41,8 @@ main {
 footer {
     grid-area: fo;
     background-color: aliceblue;
+    display: flex;
+    align-items: flex-start;
 }
 
 h1 {
@@ -134,6 +136,7 @@ div {
 #p4 {
     grid-area: p4;
 }
+
 .container3 {
     position: relative;
     width: 100%;
@@ -174,3 +177,9 @@ div {
     font-size: 100%;
     padding: 16px 32px;
   }
+
+#karta {
+    height: 90%;
+    margin-left: 17.5%;
+
+}
