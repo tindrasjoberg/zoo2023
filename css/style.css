@@ -1,6 +1,6 @@
 
 
-#container1 {
+.container1 {
     display: grid;
     height: 120vh;
     grid-template-rows: 12% 8% 72% 8%;
@@ -12,9 +12,14 @@
     ;
     gap: 3px;
 }
+
+#lorem-text {
+    margin: 16px;
+}
  
 body{
-    background-color: lightblue;
+    background-color: #add8e6;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
@@ -63,7 +68,9 @@ h3 {
 #hem {
     height: 50%;
     width: auto;
+    border-left: 27.5rem solid aliceblue;
 }
+
 
 #flexcontainer {
     display: flex;
@@ -160,7 +167,7 @@ div {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%)
+ 
   }
   
   .container3:hover .image {
@@ -180,6 +187,6 @@ div {
 
 #karta {
     height: 90%;
-    margin-left: 17.5%;
+    margin-left: 16%;
 
 }
