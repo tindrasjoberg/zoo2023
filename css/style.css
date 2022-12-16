@@ -50,25 +50,70 @@ footer {
     align-items: flex-start;
 }
 
+#subgrid {
+    display: grid;
+    grid-template-rows: 15% 25% 60%;
+    grid-template-areas:
+    'at1 at1 at1'
+    'at2 at2 at2'
+    'at3 at4 at5' ;
+}
+
+.at1 {
+    grid-area: at1;
+}
+
+.at2 {
+    grid-area: at2;
+    display: flex;
+}
+
+.at3 {
+    grid-area: at3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.at4 {
+    grid-area: at4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.at5 {
+    grid-area: at5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 h1 {
     text-align: center;
     color: rgb(96, 54, 54);
+    font-size: 34px;
 }
 
 h2 {
     text-align:center;
     color: rgb(96, 54, 54);
     text-decoration: none;
+    font-size: 21px;
 }
 
 h3 {
     text-align: center;
 }
 
+p {
+    font-size: 13px;
+}
+
 #hem {
-    height: 50%;
+    height: 70%;
     width: auto;
-    border-left: 27.5rem solid aliceblue;
 }
 
 
